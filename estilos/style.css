@@ -29,7 +29,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 250px;
@@ -38,6 +37,7 @@ section#login {
     box-shadow: 2px 2px #421e5ab9;
     overflow: hidden;
 
+    transform: translate(-50%, -50%);
     transition: width .4s, height .4s ;
     transition-timing-function: ease;
 }
